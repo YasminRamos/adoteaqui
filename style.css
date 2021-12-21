@@ -3,15 +3,17 @@
     margin: 0;
 }
 html, body{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    
 }
 
     header{
     display: flex;
     flex-direction: row;
     color: black;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     height: 60px;
     background-color: gray;
@@ -51,6 +53,7 @@ html, body{
 body, .especie, button:hover{
     background-color: rgb(245, 245, 112);
 }
+
 img, button, .especie{
     text-align: center;
     width: 100px;
